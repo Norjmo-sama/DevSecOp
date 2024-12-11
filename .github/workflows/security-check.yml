@@ -35,6 +35,6 @@ jobs:
 
     # Step 5: Use CodeQL for security scanning
     - name: CodeQL Analyze
-      uses: github/codeql-action/analyze@v2
+      uses: github/codeql-action/analyze@v3
       with:
         category: security
