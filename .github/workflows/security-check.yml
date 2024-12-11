@@ -19,6 +19,7 @@ jobs:
       uses: github/codeql-action/init@v3
       with:
         languages: javascript
+        permissions: write-all
     # Step 2: Set up Node.js environment
     - name: Set up Node.js
       uses: actions/setup-node@v4
@@ -38,3 +39,4 @@ jobs:
       uses: github/codeql-action/analyze@v3
       with:
         category: security
+        permissions: write-all
