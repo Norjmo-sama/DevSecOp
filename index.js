@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 
 const email = "adet@fhnw.edu"
+console.log(email);
 // Hardcoded secret key (intentional vulnerability)
 const secretKey = "123456";
 console.log(secretKey);
