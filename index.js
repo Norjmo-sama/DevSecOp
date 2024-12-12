@@ -1,11 +1,11 @@
 const express = require('express');
 const app = express();
 
-const email = "adet@fhnw.edu"
+const email = "m_pritchard@mail.fhsu.edu"
 console.log(email);
 // Hardcoded secret key (intentional vulnerability)
-const secretKey = "123456";
-console.log(secretKey);
+const password = "123456";
+console.log(password);
 
 
 app.get('/', (req, res) => {
